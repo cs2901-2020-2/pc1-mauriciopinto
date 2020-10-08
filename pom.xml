@@ -4,6 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <sonar.projectKey>cs2901-2020-2_pc1-mauriciopinto</sonar.projectKey>
+        <sonar.organization>cs2901-2020-2</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>7d034c8c91725196bfbe0600e367eed712637689</sonar.login>
+    </properties>
     <groupId>org.example</groupId>
     <artifactId>Practica_1</artifactId>
     <version>1.0-SNAPSHOT</version>

@@ -21,15 +21,22 @@ public class RegistrApp {
         }
     }
 
+    public void testProffessor (String name) throws MaxUsersException{
+        Proffessor p = new Proffessor(name);
+        proffessors.add(p);
+        if (proffessors.size() > 100)
+            throw new MaxUsersException("Limite de Profesores alcanzado!");
+    }
     public void logProffessor (Proffessor proffessor) throws MaxUsersException{
         proffessors.add(proffessor);
         if (proffessors.size() > 100)
             throw new MaxUsersException("Limite de Profesores alcanzado!");
     }
 
-    public void logClass (String title, String url) {
+    public void logClass (Proffessor p, String title, String url) {
         String message = title + url;
         notifyObservers(message);
+        p.displayNotification("Registro conforme");
     }
 
     private synchronized static int incrSema () {
