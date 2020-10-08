@@ -9,7 +9,7 @@ public class Proffessor extends User{
         runApp(instance);
     }
 
-    public void runApp(RegistrApp instance) {
+    public void runApp(RegistrApp instance) throws MaxUsersException {
         logger.info ("Ingrese su nombre: ");
         name = in.nextLine();
         instance.logProffessor (this);
