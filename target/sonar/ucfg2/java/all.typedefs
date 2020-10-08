@@ -417,7 +417,7 @@ I<init>(Ljava/nio/channels/ReadableByteChannel;Ljava/nio/charset/Charset;)\java
 
 nextInt(I)java.util.Scanner#nextInt(I)I7
 reset(),java.util.Scanner#reset()Ljava/util/Scanner;=
-hasNextBigInteger()&java.util.Scanner#hasNextBigInteger()ZL
-mainjava.lang.Object
-main()main#main()V
-<init>()main#<init>()V
+hasNextBigInteger()&java.util.Scanner#hasNextBigInteger()Zr
+Mainjava.lang.Object
+<init>()Main#<init>()V<
+main([Ljava/lang/String;)Main#main([Ljava/lang/String;)V

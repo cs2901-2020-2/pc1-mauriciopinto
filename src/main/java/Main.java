@@ -26,6 +26,8 @@ public class Main {
                 String name = in.nextLine();
                 user = new Observer(app, name);
             }
+            else
+                break;
         }
     }
 }

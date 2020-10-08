@@ -13,7 +13,7 @@
         <sonar.login>7d034c8c91725196bfbe0600e367eed712637689</sonar.login>
     </properties>
     <groupId>org.example</groupId>
-    <artifactId>Practica_1</artifactId>
+    <artifactId>pc1-mauriciopinto</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
