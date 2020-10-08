@@ -4,7 +4,7 @@ import java.util.logging.Logger;
 public class main {
     private static Scanner in = new Scanner(System.in);
     private static final Logger logger = Logger.getLogger(Observer.class.getName());
-    public static void main () {
+    public static void main () throws MaxUsersException{
         RegistrApp app = RegistrApp.getInstance();
         int role;
         User user;
