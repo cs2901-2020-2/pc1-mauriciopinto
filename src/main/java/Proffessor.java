@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 public class Proffessor extends User{
     static final Logger logger = Logger.getLogger(User.class.getName());
     Scanner in = new Scanner(System.in);
-    public Proffessor (RegistrApp instance) {
+    public Proffessor (RegistrApp instance) throws MaxUsersException{
         runApp(instance);
     }
 
