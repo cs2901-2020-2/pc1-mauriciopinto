@@ -1,4 +1,3 @@
-import sun.rmi.runtime.Log;
 import java.util.Scanner;
 import java.util.logging.Logger;
 

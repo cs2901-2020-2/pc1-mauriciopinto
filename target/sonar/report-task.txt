@@ -1,0 +1,7 @@
+organization=cs2901-2020-2
+projectKey=cs2901-2020-2_pc1-mauriciopinto
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.13143
+dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2020-2_pc1-mauriciopinto
+ceTaskId=AXUIy_XsGTjL-2m95Faq
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXUIy_XsGTjL-2m95Faq

@@ -1,10 +1,10 @@
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class main {
+public class Main {
     private static Scanner in = new Scanner(System.in);
     private static final Logger logger = Logger.getLogger(Observer.class.getName());
-    public static void main () throws MaxUsersException{
+    public static void main (String[] args) throws MaxUsersException{
         RegistrApp app = RegistrApp.getInstance();
         int role;
         User user;
